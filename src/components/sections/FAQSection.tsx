@@ -20,7 +20,7 @@ const FAQSection = () => {
       answer: "Our doctors prescribe FDA-approved medications including Semaglutide, which is the same active ingredient as Wegovy® and Ozempic®.",
     },
     {
-      question: "What is Eden's \"Same Price at Every Dose\" guarantee?",
+      question: "What is our \"Same Price at Every Dose\" guarantee?",
       answer: "We guarantee the same price regardless of the dosage you need, so you never have to worry about increasing costs as your treatment progresses.",
     },
     {

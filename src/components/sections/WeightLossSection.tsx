@@ -52,7 +52,7 @@ const WeightLossSection = () => {
 
             {/* Disclaimer */}
             <p className="text-sm text-muted-foreground">
-              *Eden members reported an average weight loss of 29.3 lbs in the first six months
+              *Members reported an average weight loss of 29.3 lbs in the first six months
               based on self reported data from 111 members while on GLP-1 injections, combined
               with diet and exercise.
             </p>

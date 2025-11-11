@@ -5,18 +5,18 @@ import PricingCard from "./PricingCard";
 import InfoCard from "./InfoCard";
 import ImageMarquee from "./ImageMarquee";
 
-// Eden product images
-import eden1 from "@/assets/eden_1.jpg";
-import eden2 from "@/assets/eden_2.jpg";
-import eden3 from "@/assets/eden_3.jpg";
-import eden4 from "@/assets/eden_4.jpg";
-import eden5 from "@/assets/eden_5.jpg";
-import eden6 from "@/assets/eden_6.jpg";
-import eden7 from "@/assets/eden_7.jpg";
-import eden8 from "@/assets/eden_8.jpg";
+// Product images
+import product1 from "@/assets/eden_1.jpg";
+import product2 from "@/assets/eden_2.jpg";
+import product3 from "@/assets/eden_3.jpg";
+import product4 from "@/assets/eden_4.jpg";
+import product5 from "@/assets/eden_5.jpg";
+import product6 from "@/assets/eden_6.jpg";
+import product7 from "@/assets/eden_7.jpg";
+import product8 from "@/assets/eden_8.jpg";
 
-const column1Images = [eden1, eden7, eden5, eden6];
-const column2Images = [eden4, eden3, eden8, eden2];
+const column1Images = [product1, product7, product5, product6];
+const column2Images = [product4, product3, product8, product2];
 
 const HeroSection = () => {
   return (
@@ -58,7 +58,7 @@ const HeroSection = () => {
             {/* Info Card */}
             <InfoCard
               image="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=100&h=100&fit=crop"
-              title="Is Eden® is Right for You?"
+              title="Is This Right for You?"
               linkText="Find Out"
             />
           </div>

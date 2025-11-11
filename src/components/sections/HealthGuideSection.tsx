@@ -1,32 +1,32 @@
 import { Button } from "@/components/ui/button";
 import GradientButton from "@/components/ui/gradient-button";
 import HealthGuideCard from "./HealthGuideCard";
-import edenImage1 from "@/assets/guide-card-1.jpg";
-import edenImage2 from "@/assets/guide-card-2.jpg";
-import edenImage3 from "@/assets/guide-card-3.jpg";
-import edenImage4 from "@/assets/guide-card-4.jpg";
+import guideImage1 from "@/assets/guide-card-1.jpg";
+import guideImage2 from "@/assets/guide-card-2.jpg";
+import guideImage3 from "@/assets/guide-card-3.jpg";
+import guideImage4 from "@/assets/guide-card-4.jpg";
 
 const treatments = [
   {
-    image: edenImage1,
+    image: guideImage1,
     description: "Explore personalized weight loss treatments, plans, and advice.",
     category: "Weight Loss",
     href: "#"
   },
   {
-    image: edenImage2,
+    image: guideImage2,
     description: "Boost cellular energy and learn about healthy aging treatments.",
     category: "Healthy Aging",
     href: "#"
   },
   {
-    image: edenImage3,
+    image: guideImage3,
     description: "Regrow your hair for a visibly thicker and fuller look.",
     category: "Hair Growth",
     href: "#"
   },
   {
-    image: edenImage4,
+    image: guideImage4,
     description: "Balance and restore your hormones for maximum vitality.",
     category: "Women's Hormones",
     href: "#"

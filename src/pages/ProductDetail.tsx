@@ -187,7 +187,7 @@ const ProductDetail = () => {
             <div className="pt-4">
               <InfoCard
                 image="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=100&h=100&fit=crop"
-                title="Is Eden® is Right for You?"
+                title="Is This Right for You?"
                 linkText="Find Out"
               />
             </div>
