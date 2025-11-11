@@ -1,10 +1,10 @@
 import { Button } from "@/components/ui/button";
 import GradientButton from "@/components/ui/gradient-button";
 import HealthGuideCard from "./HealthGuideCard";
-import guideImage1 from "@/assets/guide-card-1.jpg";
-import guideImage2 from "@/assets/guide-card-2.jpg";
-import guideImage3 from "@/assets/guide-card-3.jpg";
-import guideImage4 from "@/assets/guide-card-4.jpg";
+import guideImage1 from "@/assets/product_9.jpg";
+import guideImage2 from "@/assets/product_10.jpg";
+import guideImage3 from "@/assets/product_3.jpg";
+import guideImage4 from "@/assets/product_4.jpg";
 
 const treatments = [
   {
