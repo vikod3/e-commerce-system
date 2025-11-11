@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import CarouselProductCard from "@/components/products/CarouselProductCard";
-import productWeightLoss from "@/assets/product-weight-loss-2.jpg";
-import productSkin1 from "@/assets/product-skin-1.jpg";
-import productSkin2 from "@/assets/product-skin-2.jpg";
+import productWeightLoss from "@/assets/product_5.jpg";
+import productSkin1 from "@/assets/product_6.jpg";
+import productSkin2 from "@/assets/product_8.jpg";
 
 const ProductCarouselSection = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
