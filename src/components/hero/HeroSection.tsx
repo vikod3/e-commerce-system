@@ -6,14 +6,14 @@ import InfoCard from "./InfoCard";
 import ImageMarquee from "./ImageMarquee";
 
 // Product images
-import product1 from "@/assets/eden_1.jpg";
-import product2 from "@/assets/eden_2.jpg";
-import product3 from "@/assets/eden_3.jpg";
-import product4 from "@/assets/eden_4.jpg";
-import product5 from "@/assets/eden_5.jpg";
-import product6 from "@/assets/eden_6.jpg";
-import product7 from "@/assets/eden_7.jpg";
-import product8 from "@/assets/eden_8.jpg";
+import product1 from "@/assets/product_1.jpg";
+import product2 from "@/assets/product_2.jpg";
+import product3 from "@/assets/product_3.jpg";
+import product4 from "@/assets/product_4.jpg";
+import product5 from "@/assets/product_5.jpg";
+import product6 from "@/assets/product_6.jpg";
+import product7 from "@/assets/product_7.jpg";
+import product8 from "@/assets/product_8.jpg";
 
 const column1Images = [product1, product7, product5, product6];
 const column2Images = [product4, product3, product8, product2];
