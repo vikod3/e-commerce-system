@@ -13,13 +13,13 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/sections/Footer";
 import RatingBadge from "@/components/hero/RatingBadge";
 import { Fragment } from "react";
-import { getProductByHandle } from "@/data/products";
+import { getProductByHandle, products } from "@/data/products";
 
 const ProductDetail = () => {
   const { handle } = useParams<{ handle: string }>();
   const navigate = useNavigate();
 
-  const product = handle ? getProductByHandle(handle) : undefined;
+  const product = handle ? getProductByHandle(handle) : products[0];
 
   if (!product) {
     return (
