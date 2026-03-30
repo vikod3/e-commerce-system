@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import GradientButton from "@/components/ui/gradient-button";
 import { User } from "lucide-react";
+import logoDark from "@/assets/logo-dark.png";
 
 const navigationItems = [
   { label: "Weight Loss", href: "#weight-loss" },
@@ -18,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="/" className="flex-shrink-0 text-xl font-semibold text-foreground">
-            Brand
+            <img src={logoDark} alt="Brand" className="h-8 w-auto" />
           </a>
 
           {/* Navigation Links - Hidden on mobile */}

@@ -1,11 +1,13 @@
+import logoWhite from "@/assets/logo-white.png";
+
 const Footer = () => {
   return (
     <footer className="text-white pb-20 pt-16 relative bg-zinc-900">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.5fr] gap-12 mb-12">
           <div className="items-start flex-col justify-start flex gap-14">
-            <a className="inline-block text-xl font-semibold text-white" href="/">
-              Brand
+            <a className="inline-block" href="/">
+              <img src={logoWhite} alt="Brand" className="h-8 w-auto" />
             </a>
             <div className="flex-col flex gap-4">
               <div className="font-medium">Sign up to receive health tips.</div>
