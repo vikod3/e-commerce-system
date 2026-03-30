@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import GradientButton from "@/components/ui/gradient-button";
 import { User } from "lucide-react";
+import logoDark from "@/assets/logo-dark.png";
 
 const navigationItems = [
   { label: "Weight Loss", href: "#weight-loss" },
