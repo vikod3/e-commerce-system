@@ -51,6 +51,10 @@ All colors MUST be HSL.
   section {
     @apply px-[80px];
   }
+
+  h1, h2, h3 {
+    letter-spacing: -0.03em;
+  }
 }
 
 .nav-link {
