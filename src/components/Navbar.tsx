@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <a href="/" className="flex-shrink-0 text-xl font-semibold text-foreground">
-            Brand
+            <img src={logoDark} alt="Brand" className="h-8 w-auto" />
           </a>
 
           {/* Navigation Links - Hidden on mobile */}
