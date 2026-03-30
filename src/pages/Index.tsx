@@ -15,7 +15,7 @@ const Index = () => {
       <HeroSection />
       <ProductsSection />
       <WeightLossSection />
-      <ProductCarouselSection />
+      
       <ScienceNatureSection />
       <FAQSection />
       <HealthGuideSection />
