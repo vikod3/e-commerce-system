@@ -1,3 +1,5 @@
+import logoWhite from "@/assets/logo-white.png";
+
 const Footer = () => {
   return (
     <footer className="text-white pb-20 pt-16 relative bg-zinc-900">
